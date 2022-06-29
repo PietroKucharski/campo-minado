@@ -20,7 +20,6 @@ public class TabuleiroConsole {
 	private String nickName;
 	private String nickNameRecorde;
 	private String nickNameMenorPontuacao;
-	private int qtdJogadaPorJogador;
 	private int qtdChamadaConsole;
 	private int recorde;
 	private int menorPontuacao;
@@ -116,7 +115,6 @@ public class TabuleiroConsole {
 			file.close();
 			this.nickNameMenorPontuacao = object1.nickNameMenorPontuacao;
 			this.nickNameRecorde = object1.nickNameRecorde;
-			this.qtdJogadaPorJogador = object1.qtdJogadaPorJogador;
 			this.qtdChamadaConsole = object1.qtdChamadaConsole;
 			this.recorde = object1.recorde;
 			this.menorPontuacao = object1.menorPontuacao;
