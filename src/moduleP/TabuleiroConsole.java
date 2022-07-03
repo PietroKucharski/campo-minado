@@ -1,23 +1,23 @@
-package visao;
+package moduleP;
 
 import java.io.*;
-
-import modelo.Campo;
-import modelo.Serialize;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
-import excessao.ExplosaoException;
-import excessao.SairException;
-import modelo.Tabuleiro;
-
 public class TabuleiroConsole {
 
 	private String nickName;
+	public String getNickName() {
+		return nickName;
+	}
+
+	public void setNickName(String nickName) {
+		this.nickName = nickName;
+	}
+
 	private String nickNameRecorde;
 	private String nickNameMenorPontuacao;
 	private int qtdChamadaConsole;

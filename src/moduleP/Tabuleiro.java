@@ -1,10 +1,8 @@
-package modelo;
+package moduleP;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
-
-import excessao.ExplosaoException;
 
 public class Tabuleiro {
 

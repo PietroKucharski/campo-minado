@@ -1,5 +1,5 @@
-package modelo;
-
+package moduleP;
+/*
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -138,3 +138,4 @@ class CampoTeste {
 		assertTrue(campo22.isAberto() && campo11.isFechado());
 	}
 }
+*/
